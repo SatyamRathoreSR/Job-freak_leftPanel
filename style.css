@@ -1,0 +1,37 @@
+.main-body{
+    margin:0px ;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.left-panel {
+    float: left;
+    width: 12%;
+    height: 100%;
+    background-color: #636363;
+  }
+  
+  .content {
+    margin-left: 1%;
+    padding: 20px;
+    background-color: #daeaff;
+    width: 100%;
+    height: 100%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .left-panel a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    color: rgb(242, 242, 242);
+    line-height: 60px;
+  }
+ a:hover{
+    color: black;
+    letter-spacing:1cap;
+  }
